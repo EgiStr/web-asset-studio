@@ -1,0 +1,21 @@
+{
+  "name": "web-asset-studio",
+  "displayName": "Web Asset Studio",
+  "version": "1.0.0",
+  "description": "Generate consistent sticker packs, pixel sprites, animation sheets and web icons with your ChatGPT web account through a browser MCP, then clean, slice and pack them automatically.",
+  "author": {
+    "name": "EgiStr",
+    "url": "https://github.com/EgiStr"
+  },
+  "license": "MIT",
+  "keywords": [
+    "image-generation",
+    "chatgpt",
+    "pixel-art",
+    "sprite-sheet",
+    "stickers",
+    "browser-mcp"
+  ],
+  "homepage": "https://github.com/EgiStr/web-asset-studio",
+  "repository": "https://github.com/EgiStr/web-asset-studio"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "web-asset-studio",
+  "description": "Web Asset Studio: consistent image asset sets from the ChatGPT web app via a browser MCP.",
+  "owner": {
+    "name": "EgiStr",
+    "url": "https://github.com/EgiStr"
+  },
+  "plugins": [
+    {
+      "name": "web-asset-studio",
+      "source": "./",
+      "description": "Sticker packs, pixel sprites, animation sheets and web icons generated with your ChatGPT web account."
+    }
+  ]
+}

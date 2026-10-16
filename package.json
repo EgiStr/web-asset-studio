@@ -1,0 +1,51 @@
+{
+  "name": "web-asset-studio",
+  "version": "1.0.0",
+  "description": "MCP server + Claude skill for generating consistent stickers, sprites and web assets in the ChatGPT web app through a browser MCP",
+  "type": "module",
+  "main": "dist/server.mjs",
+  "bin": {
+    "web-asset-studio": "dist/server.mjs"
+  },
+  "files": [
+    "dist",
+    "skills"
+  ],
+  "scripts": {
+    "build": "esbuild src/server.mjs --bundle --platform=node --format=esm --target=node18 --outfile=dist/server.mjs --banner:js=\"import { createRequire as __cr } from 'node:module'; const require = __cr(import.meta.url);\"",
+    "pretest": "npm run build",
+    "test": "node --test test/*.test.mjs",
+    "start": "node dist/server.mjs"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "keywords": [
+    "mcp",
+    "chatgpt",
+    "image-generation",
+    "pixel-art",
+    "sprite-sheet",
+    "stickers"
+  ],
+  "author": "EgiStr",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "gifenc": "^1.0.3",
+    "jpeg-js": "^0.4.4",
+    "pngjs": "^7.0.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EgiStr/web-asset-studio.git"
+  },
+  "homepage": "https://github.com/EgiStr/web-asset-studio#readme",
+  "bugs": {
+    "url": "https://github.com/EgiStr/web-asset-studio/issues"
+  }
+}
