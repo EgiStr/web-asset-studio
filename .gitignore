@@ -1,5 +1,6 @@
 node_modules/
 asset-studio/
+!skills/asset-studio/
 *.tmp
 .claude/
 *.log

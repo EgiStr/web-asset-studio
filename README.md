@@ -135,7 +135,7 @@ video/         downloaded videos
 | `build_spritesheet` | Uniform-cell sheet PNG + JSON atlas (TexturePacker hash, works in Phaser/Pixi; `frameWidth`/`frameHeight` for Godot/Unity) + GIF |
 | `video_to_frames` | Extract PNG frames from an ingested video (needs ffmpeg) |
 
-Recipes for stickers, pixel stickers, sprite animation, emotes, web icons and fixes for common problems are in [`skills/asset-studio/references/recipes.md`](skills/asset-studio/references/recipes.md).
+Recipes for stickers, pixel stickers, sprite animation, emotes, web icons, phone wallpapers and fixes for common problems are in [`skills/asset-studio/references/recipes.md`](skills/asset-studio/references/recipes.md).
 
 ## Development
 
